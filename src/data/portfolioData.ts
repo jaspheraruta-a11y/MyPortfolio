@@ -15,6 +15,11 @@ import fireSmartDemo2 from '../assets/images/FireSmart4.mp4';
 import fireSmartDemo3 from '../assets/images/FireSmart5.mp4';
 import fireSmartSchematic from '../assets/images/project_firesmart_iot_1793122427775.jpg';
 
+// Core portfolio & project images
+import heroAvatar from '../assets/images/jaspher_hero_avatar_1793122427057.jpg';
+import projectNasaCover from '../assets/images/project_nasa_spaceapps_1793122428807.jpg';
+import projectHotelCover from '../assets/images/project_hotel_mgmt_1793122429303.jpg';
+
 export const personalInfo: PersonalInfo = {
   name: 'Jaspher Arota',
   title: 'Web Developer | Full-Stack Developer | UI/UX Enthusiast',
@@ -28,7 +33,7 @@ export const personalInfo: PersonalInfo = {
   ],
   location: 'Philippines (Available for Remote Work Globally)',
   availability: 'Available for Freelance & Contract Projects',
-  avatarUrl: '/src/assets/images/jaspher_hero_avatar_1793122427057.jpg',
+  avatarUrl: heroAvatar,
   socials: {
     email: 'jaspheraruta@gmail.com',
     facebook: 'https://www.facebook.com/jaspher.aruta',
@@ -142,7 +147,7 @@ export const projectsData: Project[] = [
       'Web Dashboard',
       'REST Protocol'
     ],
-    image: '/src/assets/images/project_firesmart_iot_1793122427775.jpg',
+    image: fireSmartSchematic,
     githubUrl: 'https://github.com/jaspherarota/fire-smart',
     isFeatured: true,
     role: 'Lead System Developer & Hardware Prototyper',
@@ -246,7 +251,7 @@ export const projectsData: Project[] = [
       'Data Visualization',
       'NASA Open APIs'
     ],
-    image: '/src/assets/images/project_nasa_spaceapps_1793122428807.jpg',
+    image: projectNasaCover,
     githubUrl: 'https://github.com/jaspherarota/nasa-space-apps-dashboard',
     isFeatured: true,
     role: 'Frontend Developer & UI/UX Designer',
@@ -282,7 +287,7 @@ export const projectsData: Project[] = [
       'MySQL / PostgreSQL',
       'Tailwind CSS'
     ],
-    image: '/src/assets/images/project_hotel_mgmt_1793122429303.jpg',
+    image: projectHotelCover,
     githubUrl: 'https://github.com/jaspherarota/hotel-management-system',
     isFeatured: true,
     role: 'Full-Stack Developer',
@@ -317,7 +322,7 @@ export const projectsData: Project[] = [
       'React Dashboard',
       'Database Modeling'
     ],
-    image: '/src/assets/images/project_firesmart_iot_1793122427775.jpg',
+    image: fireSmartSchematic,
     githubUrl: 'https://github.com/jaspherarota/smart-dorm-utility-concept',
     isFeatured: false,
     role: 'System Architect & Concept Designer',
@@ -352,7 +357,7 @@ export const projectsData: Project[] = [
       'Buzzer Actuator',
       'C++'
     ],
-    image: '/src/assets/images/project_firesmart_iot_1793122427775.jpg',
+    image: fireSmartSchematic,
     githubUrl: 'https://github.com/jaspherarota/esp32-obstacle-detection',
     isFeatured: false,
     role: 'Embedded Hardware Developer',
@@ -388,7 +393,7 @@ export const projectsData: Project[] = [
       'Node.js / Express',
       'Database Schema'
     ],
-    image: '/src/assets/images/project_hotel_mgmt_1793122429303.jpg',
+    image: projectHotelCover,
     githubUrl: 'https://github.com/jaspherarota/freelancer-marketplace',
     isFeatured: false,
     role: 'Full-Stack Developer',
